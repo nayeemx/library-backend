@@ -7,7 +7,7 @@
     "start": "node dist/server.js",
     "build": "npx tsc",
     "lint": "npx eslint src --ext .ts",
-    "postinstall": "chmod +x node_modules/.bin/tsc"
+    "prepare": "npm install typescript"
   },
   "dependencies": {
     "cors": "^2.8.5",
