@@ -5,7 +5,13 @@
   "scripts": {
     "dev": "ts-node-dev --respawn src/server.ts",
     "start": "node dist/server.js",
+<<<<<<< HEAD
     "lint": "npx eslint src --ext .ts"
+=======
+    "build": "npx tsc",
+    "lint": "npx eslint src --ext .ts",
+    "prepare": "npm install typescript"
+>>>>>>> 32070acb1feca0b09f08577ab22a02fbb096ceb6
   },
   "dependencies": {
     "cors": "^2.8.5",
